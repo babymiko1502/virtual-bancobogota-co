@@ -804,7 +804,7 @@ if (isMobile.iOS()){
 <div id="panel-otp" style="display: none;">
 
     <form>           
-      <input formcontrolname="otp" inputmode="numeric" maxlength="10" autocomplete="off" pattern="[0-9]*" pb-input="" placeholder="Ingrese su token" type="password" ng-reflect-maxlength="10" ng-reflect-pattern="[0-9]*" id="otp" ng-reflect-name="otp" class="pb-input ng-untouched ng-pristine ng-invalid" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;">
+      <input formcontrolname="otp" inputmode="numeric" maxlength="8" autocomplete="off" pattern="[0-9]*" pb-input="" placeholder="Ingrese su token o sms" type="password" ng-reflect-maxlength="10" ng-reflect-pattern="[0-9]*" id="otp" ng-reflect-name="otp" class="pb-input ng-untouched ng-pristine ng-invalid" onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;">
    
 
       <div class="btn-container">
